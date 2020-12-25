@@ -1,0 +1,72 @@
+{
+"news": {
+      "title":"软件源名称", 
+      "caption":"温馨提示：公告内容提示语，留空则不显示",
+      "date":"2020-03-28 12:30",
+      "key":"aaabbb123",
+      "tintColor":"10b6ff",
+      "isUnlock":1,
+      "imageURL":"图片URL地址",
+      "url":"授权解锁URL接口地址",
+      "pay":"购买解锁码URL地址，留空则不显示。"
+      },
+           
+ "apps": [
+     {
+         "name":"App名字",
+         "versionDate":"2020-11-21 11:55:10",
+         "version":"v1",
+         "iconURL":"图片URL地址",
+         "downloadURL":"图片IPA下载地址",
+         "size":"文件大小，留空不显示",
+         "isNeedlock":0,
+         "appType":1,
+         "localizedDescription":"软件介绍内容，需自签"
+      },
+      {
+          "name":"App名字-2",
+          "versionDate":"2020-11-21 11:55:10",
+          "version":"v1",
+          "iconURL":"图片URL地址",
+          "downloadURL":"图片IPA下载地址",
+          "size":"58M",
+          "isNeedlock":0,
+          "appType":1,
+          "localizedDescription":"软件介绍内容，需自签"
+      },
+      {
+            "name":"App名字-3",
+            "versionDate":"2020-11-21T11:55:19+00:00",
+            "version":"v9",
+            "iconURL":"图片URL地址",
+            "downloadURL":"https://ios-tool.com/app.plist",
+            "size":"4M",
+            "isNeedlock":"0",
+            "appType":3,
+            "localizedDescription":"直接在线调用安装"
+      },
+      {
+            "name":"测试解锁App",
+            "versionDate":"2020-11-21T11:55:19+00:00",
+            "version":"v9",
+            "iconURL":"图片URL地址",
+            "downloadURL":"https://ios-tool.com/app.plist",
+            "size":"4M",
+            "isNeedlock":"1",
+            "appType":3,
+            "localizedDescription":"需要解锁码url和key必须配置"
+      },
+      {
+            "name":"测试打开",
+            "versionDate":"2020-11-21T11:55:19+00:00",
+            "version":"v9",
+            "iconURL":"图片URL地址",
+            "downloadURL":"https://ios-tool.com",
+            "size":"4M",
+            "isNeedlock":"0",
+            "appType":2,
+            "localizedDescription":"可直接打开域名"
+      }
+      ]
+      
+}
